@@ -1,6 +1,7 @@
 {
   "name": "karlocv",
   "version": "0.1.0",
+  "homepage": "https://karlo121.github.io/karlocv",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
