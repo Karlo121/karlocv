@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/karlocv/static/css/main.505541b4.chunk.css",
-    "main.js": "/karlocv/static/js/main.e744cc6d.chunk.js",
-    "main.js.map": "/karlocv/static/js/main.e744cc6d.chunk.js.map",
+    "main.js": "/karlocv/static/js/main.5f8342a3.chunk.js",
+    "main.js.map": "/karlocv/static/js/main.5f8342a3.chunk.js.map",
     "runtime-main.js": "/karlocv/static/js/runtime-main.3fc8bbf4.js",
     "runtime-main.js.map": "/karlocv/static/js/runtime-main.3fc8bbf4.js.map",
     "static/js/2.81ad5298.chunk.js": "/karlocv/static/js/2.81ad5298.chunk.js",
     "static/js/2.81ad5298.chunk.js.map": "/karlocv/static/js/2.81ad5298.chunk.js.map",
     "index.html": "/karlocv/index.html",
-    "precache-manifest.84b16f95de6e32368f7c57bd3a103b37.js": "/karlocv/precache-manifest.84b16f95de6e32368f7c57bd3a103b37.js",
+    "precache-manifest.6903550804095b902f1c77d49155efee.js": "/karlocv/precache-manifest.6903550804095b902f1c77d49155efee.js",
     "service-worker.js": "/karlocv/service-worker.js",
     "static/css/main.505541b4.chunk.css.map": "/karlocv/static/css/main.505541b4.chunk.css.map",
     "static/js/2.81ad5298.chunk.js.LICENSE.txt": "/karlocv/static/js/2.81ad5298.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.3fc8bbf4.js",
     "static/js/2.81ad5298.chunk.js",
     "static/css/main.505541b4.chunk.css",
-    "static/js/main.e744cc6d.chunk.js"
+    "static/js/main.5f8342a3.chunk.js"
   ]
 }
