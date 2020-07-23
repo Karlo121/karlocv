@@ -15,10 +15,8 @@ const Wrapper = styled.section`
   text-align: center;
   min-height: 300px;
   height: 90%;
-  @media screen and (max-width: 600px) {
-      width: 100%;
+  @media screen and (max-width: 960px) {
       margin-left: 0px;
-      border-width: 2px 0px 2px 0px;
   }
 `;
 const Text = styled.p`

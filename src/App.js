@@ -16,20 +16,20 @@ function App() {
       <Header />
       </Grid>
       <Grid item container>
-        <Grid xs={0} sm={2}></Grid>
-        <Grid xs={12} sm={8}><About /></Grid>
-        <Grid xs={0} sm={2}></Grid>
+        <Grid xs={0} sm={0} md={2}></Grid>
+        <Grid xs={12} sm={12} md={8}><About /></Grid>
+        <Grid xs={0} sm={0} md={2}></Grid>
       </Grid>
       <Grid item container>
-        <Grid xs={0} sm={2}></Grid>
-        <Grid xs={12} sm={4}><Skills /></Grid>
-        <Grid xs={12} sm={4}><Education /></Grid>
-        <Grid xs={0} sm={2}></Grid>
+        <Grid xs={0} sm={0} md={2}></Grid>
+        <Grid xs={12} sm={12} md={4}><Skills /></Grid>
+        <Grid xs={12} sm={12} md={4}><Education /></Grid>
+        <Grid xs={0} sm={0} md={2}></Grid>
       </Grid>
       <Grid item container>
-        <Grid xs={0} sm={2}></Grid>
-        <Grid xs={12} sm={8}><Projects /></Grid>
-        <Grid xs={0} sm={2}></Grid>
+        <Grid xs={0} sm={0} md={2}></Grid>
+        <Grid xs={12} sm={12} md={8}><Projects /></Grid>
+        <Grid xs={0} sm={0} md={2}></Grid>
       </Grid>
     </Grid>
   );

@@ -10,11 +10,6 @@ const Wrapper = styled.section`
   color: black;
   background-color: #F6F6F4;
   box-shadow: 0 0 5px #F6F6F4;
-  @media screen and (max-width: 600px) {
-      width: 100%;
-      margin-left: 0px;
-      border-width: 2px 0px 2px 0px;
-  }
 `;
 const Text = styled.p`
     font-size: 25px;

@@ -20,12 +20,6 @@ const HeadButton = styled(Button)`
   height: 50px;
   font-size: 25px;
   pointer-events: none;
-
-  @media screen and (max-width: 600px) {
-      width: 100%;
-      margin-left: 0px;
-      border-width: 0px 0px 2px 0px;
-  }
 `;
 
 const ButtonText = styled.h1`

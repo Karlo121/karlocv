@@ -21,7 +21,7 @@ const Wrapper = styled.section`
   background-color: #F6F6F4;
   box-shadow: 0 0 5px #F6F6F4;
   min-height: 300px;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
       width: 100%;
       margin-left: 0px;
       border-width: 2px 0px 2px 0px;

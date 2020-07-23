@@ -15,7 +15,7 @@ const Wrapper = styled.section`
   color: black;
   background-color: #F6F6F4;
   box-shadow: 0 0 5px #F6F6F4;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
       width: 100%;
       margin-left: 0px;
       border-width: 2px 0px 2px 0px;
@@ -45,9 +45,9 @@ export default class Projects extends Component {
             <TextHead2>Theme Pong</TextHead2>
             <Text>Jedina sačuvana igra. Inspirirana DX Ball-om, pitao prijatelje koja je prva riječ koja im padne na pamet, pa sam dizajnirao levele po tim riječima.</Text>
             <Grid style={{justifyContent: 'space-evenly'}} container>
-                <Grid align="center" item xs={12} sm={4}><img height="300" src={themepong1} alt="tp1" /></Grid>  
-                <Grid align="center" item xs={12} sm={4}><img height="300" src={themepong2} alt="tp2" /></Grid>
-                <Grid align="center" xs={12} sm={4}><img height="300" src={themepong3} alt="tp3" /></Grid> 
+                <Grid align="center" item xs={12} sm={4}><img height="300" width="90%" src={themepong1} alt="tp1" /></Grid>  
+                <Grid align="center" item xs={12} sm={4}><img height="300"  width="90%" src={themepong2} alt="tp2" /></Grid>
+                <Grid align="center" xs={12} sm={4}><img height="300"  width="90%" src={themepong3} alt="tp3" /></Grid> 
             </Grid>
             </Wrapper>
         )
