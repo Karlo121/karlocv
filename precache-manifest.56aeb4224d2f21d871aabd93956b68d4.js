@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c8307bb4c1ef0114060b844cecf9045",
+    "revision": "67012aaf62186d1946d88d795e8ba151",
     "url": "/karlocv%20/index.html"
   },
   {
-    "revision": "87ecb1e7e80910b9c9e5",
+    "revision": "dcb5d320d0bdb90241a6",
     "url": "/karlocv%20/static/css/main.505541b4.chunk.css"
   },
   {
-    "revision": "726ddf069781bb4de07b",
-    "url": "/karlocv%20/static/js/2.e6ab62a8.chunk.js"
+    "revision": "1bd7b3a1a0a2300b6840",
+    "url": "/karlocv%20/static/js/2.750caa98.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/karlocv%20/static/js/2.e6ab62a8.chunk.js.LICENSE.txt"
+    "url": "/karlocv%20/static/js/2.750caa98.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87ecb1e7e80910b9c9e5",
-    "url": "/karlocv%20/static/js/main.dc8e4a8e.chunk.js"
+    "revision": "dcb5d320d0bdb90241a6",
+    "url": "/karlocv%20/static/js/main.5a7d092e.chunk.js"
   },
   {
     "revision": "0413789ddb559c7edac6",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/karlocv%20/static/media/c.df7e79f2.png"
   },
   {
-    "revision": "ff60ab88cbff4016fd9f0629030b1fec",
-    "url": "/karlocv%20/static/media/csharp.ff60ab88.svg"
+    "revision": "11a9078a0ab6e0595856cbeaab94eeaf",
+    "url": "/karlocv%20/static/media/csharp.11a9078a.svg"
   },
   {
     "revision": "8f047bb893c3c4ee94de0832935d7c89",
