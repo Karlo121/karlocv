@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1d96a4713616fb05c329818d583ac59",
+    "revision": "e5f26aa3f7f802965270ec1de01e6db4",
     "url": "/karlocv/index.html"
   },
   {
-    "revision": "3ec6b1ab5f2c05b1cc3c",
+    "revision": "6822becbb2f63d2f332d",
     "url": "/karlocv/static/css/main.505541b4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/karlocv/static/js/2.81ad5298.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3ec6b1ab5f2c05b1cc3c",
-    "url": "/karlocv/static/js/main.88bd3af7.chunk.js"
+    "revision": "6822becbb2f63d2f332d",
+    "url": "/karlocv/static/js/main.e744cc6d.chunk.js"
   },
   {
     "revision": "5044272da5ad9b085b3f",
