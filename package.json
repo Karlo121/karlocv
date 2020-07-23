@@ -1,9 +1,12 @@
 {
   "name": "karlocv",
   "version": "0.1.0",
-  "homepage": "https://karlo121.github.io/karlocv/public",
+  "homepage": "https://karlo121.github.io/karlocv",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.10.0",
@@ -14,8 +17,9 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.0.0",
-    "react-scripts": "3.4.1",
-    "styled-components": "^5.1.1"
+    "react-scripts": "^3.4.1",
+    "styled-components": "^5.1.1",
+    "styled-icons": "^10.11.0"
   },
   "scripts": {
     "start": "react-scripts start",

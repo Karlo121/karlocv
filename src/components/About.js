@@ -1,16 +1,15 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import orange from '@material-ui/core/colors/orange';
-import { positions } from '@material-ui/system';
-
+import styled from 'styled-components'  
 
 const Wrapper = styled.section`
-  border-color: black;
-  border-width: 2px 0px 0px 2px; 
+  /*border-color: rgb(204,146,116);*/
+  border-color: #F6F6F4;
+  border-width: 2px 2px 2px 2px; 
   border-style: solid;
   border-radius: 0px;
-  margin-top: 30px;
+  color: black;
+  background-color: #F6F6F4;
+  box-shadow: 0 0 5px #F6F6F4;
   @media screen and (max-width: 600px) {
       width: 100%;
       margin-left: 0px;
@@ -19,13 +18,12 @@ const Wrapper = styled.section`
 `;
 const Text = styled.p`
     font-size: 25px;
-    margin-left: 35px;
-
+    padding: 10px;
+    text-align: center;
 `;
 const TextHead = styled.h1`
     font-size: 30px;
-    margin-left: 35px;
-
+    text-align: center;
 `;
 
 export default class About extends Component {
@@ -33,8 +31,19 @@ export default class About extends Component {
         return (
             <Wrapper>
             
-            <TextHead> <AccountCircleIcon style={{fontSize: 30 , color: orange[500], position: 'bottom'}} /> O meni</TextHead>
-            <Text>Fusce aliquam, dolor a convallis fringilla, odio nibh tempus risus, quis hendrerit risus eros vel risus. Integer id urna at arcu consequat venenatis consectetur ut odio. Aliquam dignissim volutpat diam. Sed quis consectetur urna. In vel felis vel ligula consectetur efficitur. Praesent quis metus hendrerit, vulputate libero vitae, luctus massa. Sed lacus augue, hendrerit eget diam at, iaculis venenatis sem. Pellentesque finibus diam in ligula molestie, sed tempus leo ultrices. Suspendisse vitae semper orci. Vestibulum vel nibh vel nibh faucibus posuere a quis sem. Aenean a odio justo. Mauris elementum ligula ac semper eleifend.</Text>
+            <TextHead>O meni</TextHead>
+            <div>
+            <Text>Redovni student prve godine Tehničkog Veleučilišta u Zagrebu, smjer Informatika.</Text>
+            </div>
+            <div>
+            <Text>Oduvijek zainteresiran u web-tehnologije. Kroz djetinjsvo i tinejđerske godine radio razne male blogove i web-stranice za zabavu.</Text>
+            </div>
+            <div>
+            <Text>U 3. razredu srednje škole za praksu radio na web-stranici od APM-a (Algoritam-Profil-Mozaik).</Text>
+            </div>
+            <div>
+            <Text>Ove godine sam pohađao kolegij "Primjena HTML i CSS tehnologija u razvoju mrežnih stranica". Na kolegiju shvatio koliko još mogu i trebam naučiti. To me motiviralo da pronađem posao u ovom polju.</Text>
+            </div>
             </Wrapper>
         )
     }

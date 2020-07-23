@@ -1,13 +1,20 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import Grid from '@material-ui/core/Grid';
 
 const Wrapper = styled.section`
-  border-color: black;
-  border-width: 2px 0px 0px 2px; 
+  border-color: #F6F6F4;
+  border-width: 2px 2px 2px 2px; 
   border-style: solid;
   border-radius: 0px;
   margin-top: 30px;
   margin-left: 10px;
+  margin-bottom: 40px;
+  background-color: #F6F6F4;
+  box-shadow: 0 0 5px #F6F6F4;
+  text-align: center;
+  min-height: 300px;
+  height: 90%;
   @media screen and (max-width: 600px) {
       width: 100%;
       margin-left: 0px;
@@ -16,20 +23,32 @@ const Wrapper = styled.section`
 `;
 const Text = styled.p`
     font-size: 25px;
-    margin-left: 35px;
-
+    padding: 10px;
 `;
 const TextHead = styled.h1`
     font-size: 25px;
-    margin-left: 35px;
+    text-align: center;
 `;
 
 export default class Education extends Component {
     render() {
         return (
             <Wrapper>
-            <TextHead>Edukacija</TextHead>
-            <Text>Fusce aliquam, dolor a convallis fringilla, odio nibh tempus risus, quis hendrerit risus eros vel risus. Integer id urna at arcu consequat venenatis consectetur ut odio. Aliquam dignissim volutpat diam. Sed quis consectetur urna. In vel felis vel ligula consectetur efficitur. Praesent quis metus hendrerit, vulputate libero vitae, luctus massa. Sed lacus augue, hendrerit eget diam at, iaculis venenatis sem. Pellentesque finibus diam in ligula molestie, sed tempus leo ultrices. Suspendisse vitae semper orci. Vestibulum vel nibh vel nibh faucibus posuere a quis sem. Aenean a odio justo. Mauris elementum ligula ac semper eleifend.</Text>
+            
+            <Grid container >
+                <Grid xs={12} sm={6} item>
+                <TextHead>Edukacija</TextHead>
+                <Text >2019 - Tehničko Veleučilište Zagreb Informatika</Text>
+                <Text >2018 - Tehničko Veleučilište Zagreb Elektotehnika</Text>
+                <Text>2013-2017 I. Tehnička Škola Tesla</Text>
+                </Grid>
+                <Grid xs={12} sm={6} item>
+                <TextHead>Radno Iskustvo</TextHead>
+                <Text>2017 - 2019 Rad u knjižari Znanje u Gajevoj 1</Text>
+                <Text>2016 - Rad na APM web-stranici</Text>
+                </Grid>
+            </Grid>
+            
             </Wrapper>
         )
     }

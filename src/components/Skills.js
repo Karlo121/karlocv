@@ -1,12 +1,26 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import html from '../img/html.png';
+import css from '../img/css.png';
+import js from '../img/js.png';
+import figma from '../img/figma.png';
+import python from '../img/python.png';
+import csharp from '../img/csharp.svg';
+import c from '../img/c.png';
+import Grid from '@material-ui/core/Grid';
 
 const Wrapper = styled.section`
-  border-color: black;
-  border-width: 2px 0px 0px 2px; 
+  border-color: #F6F6F4;;
+  border-width: 2px 2px 2px 2px; 
   border-style: solid;
   border-radius: 0px;
   margin-top: 30px;
+  height: 90%;
+  margin-bottom: 30px;
+  color: black;
+  background-color: #F6F6F4;
+  box-shadow: 0 0 5px #F6F6F4;
+  min-height: 300px;
   @media screen and (max-width: 600px) {
       width: 100%;
       margin-left: 0px;
@@ -16,13 +30,18 @@ const Wrapper = styled.section`
 `;
 const Text = styled.p`
     font-size: 25px;
-    margin-left: 35px;
-
+    padding: 10px;
+    text-align: center;
 `;
 const TextHead = styled.h1`
     font-size: 25px;
-    margin-left: 35px;
+    text-align: center;
 
+`;
+
+const Margin = styled.p`
+margin-left: 20px;
+padding: 20px;
 `;
 
 export default class Skills extends Component {
@@ -30,7 +49,21 @@ export default class Skills extends Component {
         return (
             <Wrapper>
             <TextHead>Vještine</TextHead>
-            <Text>Fusce aliquam, dolor a convallis fringilla, odio nibh tempus risus, quis hendrerit risus eros vel risus. Integer id urna at arcu consequat venenatis consectetur ut odio. Aliquam dignissim volutpat diam. Sed quis consectetur urna. In vel felis vel ligula consectetur efficitur. Praesent quis metus hendrerit, vulputate libero vitae, luctus massa. Sed lacus augue, hendrerit eget diam at, iaculis venenatis sem. Pellentesque finibus diam in ligula molestie, sed tempus leo ultrices. Suspendisse vitae semper orci. Vestibulum vel nibh vel nibh faucibus posuere a quis sem. Aenean a odio justo. Mauris elementum ligula ac semper eleifend.</Text>
+            <Grid style={{justifyContent: 'space-evenly'}} container>
+                <Margin><Grid item xs={12} sm={4}><img height="100" src={html} alt="html" /></Grid></Margin>  
+                <Margin><Grid item xs={12} sm={4}><img height="100" src={css} alt="css" /></Grid></Margin>
+                <Margin><Grid xs={12} sm={4}><img height="100" src={js} alt="js" /></Grid></Margin>
+                <Margin><Grid xs={12} sm={4}><img height="100" src={figma} alt="figma" /></Grid></Margin>
+                <Margin><Grid xs={12} sm={4}><img height="100" src={python} alt="python" /></Grid></Margin>
+                <Margin><Grid xs={12} sm={4}><img height="100" src={csharp} alt="c#" /></Grid></Margin>
+                <Margin><Grid xs={12} sm={4}><img height="100" src={c} alt="c" /></Grid></Margin>
+                <Grid xs={12} sm={12}><Text>Upoznat sa Git-om.</Text></Grid>
+                <Grid xs={12} sm={12}><Text>Izvrsno znanje engleskog jezika.</Text></Grid>
+                
+                
+                
+                
+            </Grid>
             </Wrapper>
         )
     }
